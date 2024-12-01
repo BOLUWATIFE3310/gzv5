@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="gzv5">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="gz_lib.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gz_lib/gz_lib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="processes.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/processes/processes">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="databases.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/databases/databases">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="common_lib.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common_lib/common_lib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/json/json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gzv5shared.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/gzv5shared/gzv5shared">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/gzv5/build/classes"/>
+        <property name="context-root" value="/"/>
+    </wb-module>
+</project-modules>

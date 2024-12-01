@@ -1,0 +1,235 @@
+@CHARSET "UTF-8";
+
+body {
+	margin:0 0 0 0;
+	color:#5D3E18;
+	font-family:Arial, Helvetica;
+	font-size:11px;
+	scrollbar-face-color:#444444;
+	scrollbar-highlight-color:#988B6F;
+	scrollbar-shadow-color:#413721;
+	scrollbar-3dlight-color:#554116;
+	scrollbar-arrow-color:#988B6F;
+	scrollbar-track-color:#222222;
+	scrollbar-darkshadow-color:#000000;
+	scrollbar-base-color:#000000;
+	cursor:default;
+}
+.mf {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration:none;
+
+}
+.mf a {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration:underline;
+
+}
+.mf a:hover {
+	color:#433317;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration:none;
+
+}
+
+.mr {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+.mr a {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+.mr a:hover {
+	color:#433317;
+	font-family:Arial, Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+
+.mv {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+
+}
+.mv a {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:underline;
+
+}
+.mv a:hover {
+	color:#433317;
+	font-family:Arial, Helvetica;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:normal;
+
+}
+
+.b_area {
+	color:#FBF4C6;
+	font-family:Arial, Helvetica;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+}
+.b_area a {
+	color:#FBF4C6;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+.b_area a:hover {
+	color:#FCFAED;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.sub {
+	color:#A5864C;
+	font-family:Arial, Helvetica;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+}
+.sub a {
+	color:#A5864C;
+	font-family:Arial, Helvetica;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+.sub a:hover {
+	color:#A5864C;
+	font-family:Arial, Helvetica;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.mtt_area {
+	color:#FBF4C6;
+	font-family:Arial, Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.mtt_area a {
+	color:#FBF4C6;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.mtt_area a:hover {
+	color:#AFFFA6;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.nct {
+	color:#564839;
+	font-family:verdana,arial,sans-serif;
+	font-size:9px;
+	text-decoration:none;
+	font-weight:normal;
+}
+.nct a {
+	color:#564839;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.nct a:hover {
+	color:#CAFBB1;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+select {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#E8C285;
+}
+.finput {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#E8C285;
+	border:solid 1px #A5864C;
+	width:100px;
+	height:20px;
+}
+.fbutton {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#E8C285;
+	border-top:solid 1px #F9DEB4;
+	border-left:solid 1px #F9DEB4;
+	border-bottom:solid 1px #8E6D39;
+	border-right:solid 1px #8E6D39;
+	width:160px;
+	height:20px;
+}
+.sinput {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#E8C285;
+	border:solid 1px #A5864C;
+	height:18px;
+}
+.stextarea {
+	color:#6F5A38;
+	font-family:Arial, Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#E8C285;
+	border:solid 1px #A5864C;
+}
+.imgb {
+	border:1px solid #A5864C;
+}

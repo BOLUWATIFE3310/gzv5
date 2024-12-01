@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <javaee:description>Gamezer Checkers</javaee:description>
+    <javaee:display-name>Gamezer Checkers</javaee:display-name>
+    <servlet-name>Checkers</servlet-name>
+    <servlet-class>gz.server.net.boards.draughts.CheckersContainer</servlet-class>
+    <async-supported>true</async-supported>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  
+   <servlet>
+    <javaee:description>Gamezer Chess</javaee:description>
+    <javaee:display-name>Gamezer Chess</javaee:display-name>
+    <servlet-name>Chess</servlet-name>
+    <servlet-class>gz.server.net.boards.chess.ChessContainer</servlet-class>
+    <async-supported>true</async-supported>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  
+   <servlet>
+    <javaee:description>Gamezer Billiards</javaee:description>
+    <javaee:display-name>Gamezer Billiards</javaee:display-name>
+    <servlet-name>Billiards</servlet-name>
+    <servlet-class>gz.server.net.billiards.BilliardsContainer</servlet-class>
+    <async-supported>true</async-supported>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  
+	<servlet-mapping>
+  	<servlet-name>Checkers</servlet-name>
+  	<url-pattern>/v5/checkers/</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+  	<servlet-name>Chess</servlet-name>
+  	<url-pattern>/v5/chess/</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+  	<servlet-name>Billiards</servlet-name>
+  	<url-pattern>/v5/billiards/</url-pattern>
+	</servlet-mapping>
+</web-app>
